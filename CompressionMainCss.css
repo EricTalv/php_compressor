@@ -1,0 +1,133 @@
+body {
+	background: #384047;
+	font-family: Consolas;
+	font-size: 10px
+}
+
+div.SCROLL {
+	max-height: 100px;
+	overflow: auto;
+
+}
+
+table {
+
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+
+}
+
+table, td, tr, th {
+
+	border: 1px solid black;
+	padding:  4px 5px;
+	font-size: 15px;
+
+	width: 400px;
+}
+
+table td {
+
+	word-break: break-all;
+	font-size: 20px;
+	text-align: center;
+
+}
+
+table th {
+	color: black;
+	
+
+}
+
+table tr {
+	text-align: center;
+	
+}
+
+th.headerOne {
+	background-color: #2F558E; 
+	color: #fff;	
+}
+
+textarea {
+
+	resize: none;
+	font-family: Consolas;
+	font-size: 20px
+}
+
+div.FIRSTFORM {
+
+	position: absolute;
+
+	/*top: 1%;*/
+    right: 56%;
+
+
+	background: #fff;
+	padding: 3em 3em 2em;
+	max-width: 400px;
+	margin: 60px auto 0;
+	box-shadow: 0 0 1em #222;
+	border-radius: 5px;
+}
+
+div.SECONDFORM {
+
+	position: absolute;
+
+	/*top: 1%;*/
+    right: 6%;
+
+    
+	background: #fff;
+	padding: 3em 3em 2em;
+	max-width: 400px;
+	margin: 60px auto 0;
+	box-shadow: 0 0 1em #222;
+	border-radius: 5px;
+
+	/*max-height: 795px;*/
+	/*height: 671px;*/
+}
+
+p {
+	/*margin: 0 0 3em 0;*/
+	position: relative;
+	font-size: 15px;
+	line-height: 5px;
+}
+
+label {
+	display: block;
+	font-size: 2.6em;
+	margin: 0 0 .5em;
+	color: #333;
+	text-decoration: underline;
+}
+
+input {
+	display: block;
+	box-sizing: border-box;
+	width: 100%;
+	outline: none
+
+}
+
+input[type="submit"] {
+	font-family: Consolas;
+	background: #2F558E;
+	box-shadow: 0 3px 0 0 #1D3C6A;
+	border-radius: 5px;
+	border: none;
+	color: #fff;
+	cursor: pointer;
+	display: block;
+	font-size: 2em;
+	line-height: 1.6em;
+	margin: 2em 0 0;
+	outline: none;
+	padding: .8em 0;
+	text-shadow: 0 1px #68B25B;
+}
