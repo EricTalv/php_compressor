@@ -4,6 +4,10 @@ body {
 	font-size: 10px
 }
 
+.wrapper {
+	display: flex;
+}
+
 div.SCROLL {
 	max-height: 100px;
 	overflow: auto;
@@ -27,22 +31,17 @@ table, td, tr, th {
 }
 
 table td {
-
 	word-break: break-all;
 	font-size: 20px;
 	text-align: center;
-
 }
 
 table th {
 	color: black;
-	
-
 }
 
 table tr {
 	text-align: center;
-	
 }
 
 th.headerOne {
@@ -59,12 +58,6 @@ textarea {
 
 div.FIRSTFORM {
 
-	position: absolute;
-
-	/*top: 1%;*/
-    right: 56%;
-
-
 	background: #fff;
 	padding: 3em 3em 2em;
 	max-width: 400px;
@@ -74,12 +67,6 @@ div.FIRSTFORM {
 }
 
 div.SECONDFORM {
-
-	position: absolute;
-
-	/*top: 1%;*/
-    right: 6%;
-
     
 	background: #fff;
 	padding: 3em 3em 2em;
@@ -87,13 +74,9 @@ div.SECONDFORM {
 	margin: 60px auto 0;
 	box-shadow: 0 0 1em #222;
 	border-radius: 5px;
-
-	/*max-height: 795px;*/
-	/*height: 671px;*/
 }
 
 p {
-	/*margin: 0 0 3em 0;*/
 	position: relative;
 	font-size: 15px;
 	line-height: 5px;
@@ -112,7 +95,6 @@ input {
 	box-sizing: border-box;
 	width: 100%;
 	outline: none
-
 }
 
 input[type="submit"] {
