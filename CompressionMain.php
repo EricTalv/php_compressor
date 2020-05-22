@@ -44,6 +44,23 @@
 
     <body>
 
+		<div class="info">
+			<p>Welcome to my PHP Compression device.</p>
+			<p>The concept is simple:</p>
+			<p>Insert any desired sequence of Binary code into the Left box, you will be given
+				a string of random characters, your binary sequence has now been reduced into 
+				a smaller string.
+				<br/>
+				You may convert the digit back into your code to check if
+				it converts back into the code you first inserted.
+				<br/>
+				This project was made to imitate the concept of a 
+				.ZIP Compression device in a <b>very</b> simple format.
+			</p>
+		   <p>Author: Eric Talviste</p>
+		</div>
+
+
 		<div class="wrapper">
 			<!-- BINARY -> COMPRESSED CODE AREA -->
 			<div class="FIRSTFORM">

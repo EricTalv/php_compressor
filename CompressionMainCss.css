@@ -4,6 +4,19 @@ body {
 	font-size: 10px
 }
 
+
+.info {
+	background: #fff;
+	padding: 50px;
+	max-width: 1100px;
+	margin: 10px auto 0;
+	box-shadow: 0 0 1em #222;
+	border-radius: 5px;
+
+	font-size: 25px;
+
+}
+
 .wrapper {
 	display: flex;
 }
@@ -76,11 +89,7 @@ div.SECONDFORM {
 	border-radius: 5px;
 }
 
-p {
-	position: relative;
-	font-size: 15px;
-	line-height: 5px;
-}
+
 
 label {
 	display: block;
